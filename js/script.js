@@ -7,7 +7,7 @@
 //     [13413453, "Sue Wedge", 1235, "sue@vectacorp.com", "QA"]
 // ]
 import { fetchEmployees } from "./modules/init.js";
-
+// had to wrap DOM for async function because of errors
 document.addEventListener('DOMContentLoaded', async () => {
     // GET DOM ELEMENTS
     let empTable = document.querySelector('#employees');
